@@ -1,29 +1,22 @@
 @font-face {
     font-family: 'Press Start 2P';
-    src: url(../resouces/PressStart2P-regular.ttf);
-}
-
-body {
-    background: #d5d5d5; 
-    margin: 0px;
-    padding: 0px;    
-    height: fit-content;
-    font-family: 'Press Start 2P', cursive;
+    src: url(/font/PressStart2P-Regular.ttf);
 }
 
 html{
-    height: fit-content;
     box-sizing: border-box;
 }
 
 .bloco-geral{
     display: flex;
+    font-size:  13em;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .bloco-1{
     width: 80%;
     margin-right: 30px;
-    padding-left:10px;
     border-radius: 25px;
 }
 
@@ -60,7 +53,7 @@ html{
     text-align: center;
     border: 1px solid #0E9AA7;
     border-radius: 50px;
-    line-height: 25px;
+    
     margin-left: 5px;
     margin-right: 5px;
 }    

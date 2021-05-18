@@ -1,0 +1,23 @@
+.asideMenuJogos{
+    height: 100vh;   
+    border-radius: 25px;  
+    font-size: 10rem; 
+    text-align: center;                                                  
+}
+
+.asideMenuJogos li{
+    height: 10%; 
+    list-style: none;                                         
+}
+
+.asideMenuJogos ul{
+    padding-inline-start: 0px;              
+}
+
+.asideMenuJogos a{
+    text-decoration: none;
+    color: black;
+}
+    .compreAgora{            
+        height: 50%;            
+    }

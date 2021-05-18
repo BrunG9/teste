@@ -1,23 +1,14 @@
 @font-face {
     font-family: 'Press Start 2P';
-    src: url(../resouces/PressStart2P-regular.ttf);
-}
-
-body {
-    background: #d5d5d5; 
-    margin: 0px;
-    padding: 0px;    
-    height: fit-content;
-    font-family: 'Press Start 2P', cursive;
+    src: url(/font/PressStart2P-Regular.ttf);
 }
 
 html{
-    height: fit-content;
     box-sizing: border-box;
 }
 
 footer{
-    background-color: #d5d5d5; 
+    margin-top: 20px;
 }
 
 .rodape{
@@ -26,6 +17,7 @@ footer{
     justify-content: space-between;
     padding: 16px 40px 10px 40px;
     border-top: 1px solid #666;
+    font-size:  15em;
 }
 .img-sociais{
     width: 50px;
@@ -34,6 +26,11 @@ footer{
 .rodape-coluna-1{
     align-self: center;
 }
+
+.none{
+    list-style-type: none;
+}
+
 .rodape-logo{
     display: block;
     margin: 0 auto;
@@ -42,6 +39,7 @@ footer{
 .copy{
     background-color: #666;
     text-align: center;
+    font-size:  13em;
 }
 .copy h6{
     padding-top: 6px;

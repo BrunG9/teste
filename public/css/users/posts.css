@@ -1,21 +1,19 @@
-*{
-    font-family: 'Press Start 2P', cursive;
-    box-sizing: border-box;
-}
 
 @font-face {
 
     font-family: 'Press Start 2P';
-    src: url('../resouces/PressStart2P-Regular.ttf');
+    src: url(/font/PressStart2P-Regular.ttf);
 }
 
 html{
 
+    font-family: 'Press Start 2P', cursive;
     box-sizing: border-box;
+    font-size: 6.25%;
 }
 body {
     
-    font-size: 6.25%;
+    
     background: #d5d5d5; 
 
     height: 110vh;
@@ -30,7 +28,7 @@ body {
 
 header{
     
-    
+    font-size: 1em;
     box-sizing: border-box;
     width: 100%;
     height: 15vh;

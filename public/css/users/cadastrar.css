@@ -1,19 +1,19 @@
 @font-face {
 
     font-family:"PressStart2P";
-    src: url(../resouces/PressStart2P-Regular.ttf);
+    src: url(/font/PressStart2P-Regular.ttf);
 }
 
 html{
-
+    box-sizing: border-box;
     font-family: "PressStart2P";
     font-size: 6.25%;
 }
 
 
 body{
-
-    margin: 0;
+    
+    
     padding: 0;
     border: 0;
     width: 100vw;
@@ -21,18 +21,19 @@ body{
     height: 110vh;
     min-height: 800px;
     background: #d5d5d5;  
+    box-sizing: border-box;
 }
 
-header{
-
+.cad-header{
+    
     height: 15vh;
     width: 100vw;
 
 }
 
-aside{
+.cad-aside{
 
-    
+    display: inline;
     height: 80vh;
     min-height: 650px;
     width: 100vw;
@@ -46,7 +47,7 @@ aside{
     margin: 0 auto;
     width: 30vw;
     min-width: 360px;
-    height: 80vh;
+    height: 60vh;
     min-height: 650px;
 
     border: 1px solid #0E9AA7;
@@ -68,7 +69,7 @@ aside{
 .caixaRegistro{
 
     
-    width: 45vh;
+    width: 23vw;
     margin-left: 10%;
   
 }
@@ -122,42 +123,12 @@ aside{
 }
 
 
-.caixaRegistro form p {
-
-    margin-left: 45%;
-    margin-top: 10px;
-}
-
-.redes{
-
-    width: 50vh;
-    margin-top: 4%;
-
-}
 
 .redes form{
-
-    width: 90vw;
+    
+    width: 60vw;
     box-sizing: border-box;
    
-}
-
-.inputImagem{
-
-    margin-left: 9vh;
-    height: 3.5%;
-    min-height: 40px;
-    width: 3.5%;
-    min-width: 40px;
-    
-}
-
-.inputImagem:hover {
-
-    height: 4%;
-    width: 4%;
-    box-shadow: 0.3vw 0.5vh 1vh grey;
-    
 }
 
 .criar{
@@ -169,13 +140,15 @@ aside{
 
 }
 
-input[type=submit] {
+.cad-submit {
 
+    display: block;
     font-family: "PressStart2P";
     font-size: 22em;
     color: #FFFFFF;
-    margin-left: 2vw;
-    width: 26vw;
+    
+    margin-top: 5vh;
+    width: 23vw;
     min-width: 340px;
     height: 13vh;
     max-height: 83px;
@@ -186,8 +159,9 @@ input[type=submit] {
 
 }
 
-footer{
-  
+.cad-footer {
+    
+    margin-top: 5vh;
     height: 15vh;
 }
 
